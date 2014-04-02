@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainTwitterActivity" 
+    android:background="#fff">
+
+    <ListView
+        android:id="@+id/twitterFeedListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/emptyView">
+        <TextView
+            android:id="@+id/emptyText"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="25dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/empty_text_twitter"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emptyText"
+            android:id="@+id/btn_retry"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:text="@string/empty_retry_button"/>
+    </RelativeLayout>
+        
+        
+</RelativeLayout>

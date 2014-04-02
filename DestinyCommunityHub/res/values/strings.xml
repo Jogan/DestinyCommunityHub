@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Destiny Community Hub</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="unknown_error">Unknown error has occurred. This is never supposed to happen...wtf</string>
+    <string name="drawer_open">Open nav drawer</string>
+    <string name="drawer_close">Close nav drawer</string>
+    <string name="title_nav_opened">Select a Link</string>
+    <string name="go_to_website">Go to Website</string>
+
+    <string-array name="navdrawer_links">
+        <item>News</item>
+        <item>Videos</item>
+        <item>Podcasts</item>
+        <item>Community</item>
+        <item>Social Stream</item>
+    </string-array>
+    <string-array name="youtube_channel_ids">
+        <item>UCkmAjbIecTIjTQctolYeuDw</item>
+        <item>UCzpg2fhGkehEHqGsTl7arZA</item>
+        <item>UC-tncEziQJETCCgULaCEnyw</item>
+        <item>UCCaCm0k9OX4D0e5DrYW4VKw</item>
+        <item>UCTTx-gTU-ePcxHLpF15l8hA</item>
+        <item>UCKK9-BC5YPF4bBYPB_pnRgw</item>
+        <item>UC2lJPgRa6PeDNLUqlCCmDAQ</item>
+        <item>UCQZFAQPTQtrFrTu6Hb4vwsw</item>
+        <item>UClLSC578jTqOb2DXmnmPFlA</item>
+        <item>UCAx-HthdldR_K7U9Gv8_nUw</item>
+        <item>UCo7dkKpNrGKW6cLKrLkC1Sw</item>
+    </string-array>
+    <string-array name="youtube_channel_image_urls_mobile">
+        <item>http://i1.ytimg.com/u/kmAjbIecTIjTQctolYeuDw/channels4_mobile_banner_hd.jpg</item>
+        <item>http://i1.ytimg.com/u/zpg2fhGkehEHqGsTl7arZA/channels4_mobile_banner_hd.jpg</item>
+        <item>http://i1.ytimg.com/u/-tncEziQJETCCgULaCEnyw/channels4_mobile_banner_hd.jpg</item>
+        <item>http://i1.ytimg.com/u/CaCm0k9OX4D0e5DrYW4VKw/channels4_mobile_banner_hd.jpg</item>
+        <item>http://i1.ytimg.com/u/TTx-gTU-ePcxHLpF15l8hA/channels4_mobile_banner_hd.jpg</item>
+        <item>http://i1.ytimg.com/u/KK9-BC5YPF4bBYPB_pnRgw/channels4_mobile_banner_hd.jpg</item>
+         <item>http://i1.ytimg.com/u/2lJPgRa6PeDNLUqlCCmDAQ/channels4_mobile_banner_hd.jpg</item>
+         <item>http://i1.ytimg.com/u/QZFAQPTQtrFrTu6Hb4vwsw/channels4_mobile_banner_hd.jpg</item>
+         <item>http://i1.ytimg.com/u/lLSC578jTqOb2DXmnmPFlA/channels4_mobile_banner_hd.jpg</item>
+         <item>http://i1.ytimg.com/u/Ax-HthdldR_K7U9Gv8_nUw/channels4_mobile_banner_hd.jpg</item>
+         <item>http://i1.ytimg.com/u/o7dkKpNrGKW6cLKrLkC1Sw/channels4_mobile_banner_hd.jpg</item>
+     </string-array>
+     <string-array name="youtube_channel_image_urls_tablets">
+         <item>http://i1.ytimg.com/u/kmAjbIecTIjTQctolYeuDw/channels4_tablet_banner.jpg</item>
+         <item>http://i1.ytimg.com/u/zpg2fhGkehEHqGsTl7arZA/channels4_tablet_banner.jpg</item>
+         <item>http://i1.ytimg.com/u/-tncEziQJETCCgULaCEnyw/channels4_tablet_banner.jpg</item>
+         <item>http://i1.ytimg.com/u/CaCm0k9OX4D0e5DrYW4VKw/channels4_tablet_banner.jpg</item>
+         <item>http://i1.ytimg.com/u/TTx-gTU-ePcxHLpF15l8hA/channels4_tablet_banner.jpg</item>
+         <item>http://i1.ytimg.com/u/KK9-BC5YPF4bBYPB_pnRgw/channels4_tablet_banner.jpg</item>
+          <item>http://i1.ytimg.com/u/2lJPgRa6PeDNLUqlCCmDAQ/channels4_tablet_banner.jpg</item>
+          <item>http://i1.ytimg.com/u/QZFAQPTQtrFrTu6Hb4vwsw/channels4_tablet_banner.jpg</item>
+          <item>http://i1.ytimg.com/u/lLSC578jTqOb2DXmnmPFlA/channels4_tablet_banner.jpg</item>
+          <item>http://i1.ytimg.com/u/Ax-HthdldR_K7U9Gv8_nUw/channels4_tablet_banner.jpg</item>
+          <item>http://i1.ytimg.com/u/o7dkKpNrGKW6cLKrLkC1Sw/channels4_tablet_banner.jpg</item>
+      </string-array>
+      <string-array name="youtube_channel_names">
+          <item>Datto Does Destiny</item>
+          <item>Destiny Overwatch</item>
+          <item>Destiny Updates</item>
+          <item>Desti-Nation</item>
+          <item>MoreConsole</item>
+          <item>Dear Bungie</item>
+           <item>MathChief</item>
+           <item>Reach Forge Network</item>
+           <item>That Destiny Blog</item>
+           <item>ChrisFrancisK</item>
+           <item>Destiny Fr</item>
+       </string-array>
+       <string-array name="community_names">
+           <item>Destiny Dispatch</item>
+           <item>Destiny Guardian</item>
+           <item>That Destiny Blog</item>
+           <item>Destiny.Bungie.Org</item>
+           <item>Desti-Nation</item>
+           <item>DestinyNews.Net</item>
+           <item>Destinypedia</item>
+           <item>Destiny Players</item>
+           <item>r/DestinyTheGame</item>
+           <item>Destiny Spain</item>
+           <item>Destiny Mexico</item>
+           <item>Guardians of Destiny</item>
+           <item>DestinyBlog.de</item>
+           <item>Datto Does Destiny</item>
+           <item>Destiny Overwatch</item>
+           <item>Destiny Updates</item>
+           <item>MathChief</item>
+           <item>MoreConsole</item>
+           <item>Reach Forge Network</item>
+           <item>ChrisFrancisK</item>
+           <item>Destiny Fr</item>
+           <item>Destiny Tracker</item>
+           <item>Dear Bungie</item>
+       </string-array>
+       <string-array name="community_descriptions">
+           <item>Quickly and coherently dispatching any and all Destiny news, community stuff, and more. Share, create, become buddies. </item>
+           <item>Your source for everything Destiny.</item>
+           <item>Blog for everything Destiny.  From the creator of YouKnowYou\'reASpartan </item>
+           <item>Established in 1999, the Bungie.Org family of fansites is known for its comprehensive news reporting and dedicated community. Yes, even DBO.</item>
+           <item>Bringing you all the latest in the world of Destiny. Follow me on Twitter and Subscribe to my Youtube channel for Destiny goodness!</item>
+           <item>Destiny News offers the latest news and game information on Destiny.</item>
+           <item>The most comprehensive wiki for Bungie\'s Destiny video game series!</item>
+           <item>News, videos and articles on Destiny.</item>
+           <item>The official Destiny subreddit!</item>
+           <item>The #1 Spanish community site for Destiny.</item>
+           <item>Web space dedicated to Destiny. Here you will find news, videos and more. Guardians are welcome. Comunidad en español.de Destiny.</item>
+           <item>Dedicated to everything regarding Destiny and home of Guardian Radio.</item>
+           <item>We are reporting about every News from the upcoming world of Destiny.</item>
+           <item>Datto brings you up to date info, PvE and PvP guides and livestreams to ensure you\'re the most informed about everything Destiny.</item>
+           <item>On Destiny Overwatch you will find all the latest Destiny news and information in high quality video!</item>
+           <item>Dedicated to bringing you all the latest Destiny News and Information, in the form of detailed, high quality videos!</item>
+           <item>Home of the best trailers and gameplay.</item>
+           <item>If you\'re interested in a tour guide to keep the road to Destiny well lit, you\'ll find that More Console has a ravenous appetite for every detail.</item>
+           <item>Home to the Destiny news show known as Inside Destiny and many other video series within the magical world of Destiny. Welcome to RFN.</item>
+           <item>Destiny fan, lover and content creator who also happens to be a YouTube Partner. Check out my channel for all your latest Destiny news, updates and more.</item>
+           <item>Destiny Fr is hosting the french community on Destiny and is focused on creations (videos, images, glitches, mods, etc.).</item>
+           <item>Dedicated to providing Destiny Stats (when they are released), News, Content and more.</item>
+           <item>Dear Bungie is an almost completely unfiltered source of, and for, speculation about Destiny.</item>
+       </string-array>
+       <string-array name="community_urls">
+           <item>http://www.hddispatch.net</item>
+           <item>http://destinyguardian.com</item>
+           <item>http://www.thatdestinyblog.com/</item>
+           <item>http://destiny.bungie.org/</item>
+           <item>http://desti-nation.org/</item>
+           <item>http://destinynews.net/</item>
+           <item>http://destiny.wikia.com/wiki/Destinypedia_Wiki</item>
+           <item>http://destinyplayers.com/</item>
+           <item>http://www.reddit.com/r/DestinyTheGame</item>
+           <item>http://www.destinythegame.es/</item>
+           <item>http://destinymexico.com</item>
+           <item>http://theguardiansofdestiny.com/</item>
+           <item>http://www.destinyblog.de</item>
+           <item>https://www.youtube.com/user/DattoDoesDestiny</item>
+           <item>https://www.youtube.com/destinyoverwatch</item>
+           <item>https://www.youtube.com/DestinyUpdates</item>
+           <item>https://www.youtube.com/user/MathChief11</item>
+           <item>https://www.youtube.com/channel/UCTTx-gTU-ePcxHLpF15l8hA</item>
+           <item>https://www.youtube.com/user/ReachForgeNetwork/</item>
+           <item>https://www.youtube.com/user/ChrisFrancisK</item>
+           <item>http://www.destinynews.fr/</item>
+           <item>http://www.DestinyTracker.com/</item>
+           <item>http://www.youtube.com/user/DearBungie</item>
+       </string-array>
+
+       <string name="loading">Loading</string>
+       <string name="licenses">Licenses</string>
+       <string name="feedback">Feedback</string>
+       <string name="feedback_subject">Feedback for Destiny Community Hub</string>
+       <string name="goback">Go Back</string>
+       <string name="now_entering">Now Entering</string>
+       <string name="please_wait">Please Wait...</string>
+       <string name="app_rate_text">Like our app? Rate it!</string>
+
+       <string name="empty_text_news">There is no news available at this time.</string>
+       <string name="empty_text_podcasts">There are no podcasts available at this time.</string>
+       <string name="empty_text_twitter">The stream is not available at this time.</string>
+       <string name="empty_retry_button">Try again</string>
+
+       <string name="ads_nobodylikes">Nobody Likes Ads!</string>
+       <string name="ads_however">however</string>
+       <string name="ads_explanation">It costs money to run the servers behind this application. Please consider supporting the further development of this app by clicking the ad below...</string>
+       <string name="ads_calltoaction">Or consider purchasing the Destiny Community Hub PRO Key (Note: this will remove this stupid page from the app).</string>
+       <string name="ads_supportthedev">Support the Developer</string>
+       <string name="ads_thankyou">Thank you for taking the time to use our app! We\'ll see you on the Frontier!</string>
+    <string name="loading_video">Loading video...</string>
+
+</resources>

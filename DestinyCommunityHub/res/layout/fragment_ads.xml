@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/card_gray"
+    android:padding="8dp"
+    >
+
+    <ScrollView
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textSize="28sp"
+                android:layout_gravity="center"
+                android:text="@string/ads_nobodylikes"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ads_however"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/ads_explanation"
+                android:textSize="20sp"/>
+            <com.mopub.mobileads.MoPubView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/ads_calltoaction"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_purchasePro"
+                android:layout_gravity="center"
+                android:text="@string/ads_supportthedev"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ads_thankyou"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

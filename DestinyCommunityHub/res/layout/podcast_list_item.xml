@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/card_outer" >
+
+    <RelativeLayout
+        android:id="@+id/inner_frame"
+        style="@style/card_inner" >
+
+        <ImageView
+            android:id="@+id/artworkImage"
+            android:layout_width="@dimen/card_thumbnail"
+            android:layout_height="@dimen/card_thumbnail"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner_default" />
+
+        <RelativeLayout
+            android:id="@+id/podcastInfoHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/divider"
+            android:layout_toRightOf="@+id/artworkImage" >
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:text="Track Name"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/artistTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:autoLink="web"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="10dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="John Doe"
+                android:textColor="#000"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/buttonHolder"
+            android:background="?android:attr/dividerVertical" />
+
+        <RelativeLayout
+            android:id="@+id/buttonHolder"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/playPauseProgressButton"
+                style="@android:style/Holo.Light.ButtonBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/playpause_selector"
+                android:src="@drawable/ic_action_playback_play"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView style="@style/card_shadow" />
+
+</LinearLayout>

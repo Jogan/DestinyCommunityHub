@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#dcdcdc</color>
+    <color name="white">#ffffff</color>
+    <color name="activity_bg">#d3d7d9</color>
+    <color name="activity_black_bg">#222222</color>
+    <color name="black_transparent">#AF000000</color>
+    <color name="black_transparent_light">#5F000000</color>
+    <color name="blue_transparent">#AF28384A</color>
+    <color name="pager_bg_color">#28384A</color>
+    <color name="pager_text_color">#fff</color>
+    <color name="news_item_text_color">#000</color>
+    <color name="drawer_bg_color">#28384A</color>
+    <color name="drawer_text_color">#ffffff</color>
+    <color name="drawer_header_bg_color">#EAEAEA</color>
+    <color name="drawer_header_text_color">#0099cc</color>
+    <color name="card_gray">#e5e5e5</color>
+    <color name="second_grey">#ff999999</color>
+    <color name="card_white">#ffffffff</color>
+    <color name="card_shadow">#8c666666</color>
+    <color name="holo_blue">#33B5E5</color>
+    <color name="holo_blue_dark">#0099CC</color>
+    <color name="card_pressed">#7E0099CC</color>
+    <color name="card_activated">#CFE9F3</color>
+
+</resources>

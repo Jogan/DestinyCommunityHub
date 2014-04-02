@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/card_outer" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/inner_frame"
+        style="@style/card_inner_wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:minHeight="56dp"
+            android:descendantFocusability="blocksDescendants" >
+
+            <TextView
+                android:id="@+id/newsTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/newsTimeTextView"
+                android:fontFamily="sans-serif"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:singleLine="false"
+                android:textColor="@color/news_item_text_color"
+                android:textIsSelectable="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/newsTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="2dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/news_item_text_color"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/newsDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/newsTitleTextView"
+                android:paddingLeft="5dp"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="10dp"
+                android:textColor="@color/news_item_text_color"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView style="@style/card_shadow" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/card_outer" >
+
+    <RelativeLayout
+        android:id="@+id/inner_frame"
+        style="@style/card_inner_wrap_content"
+        android:clickable="false" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:clickable="false"
+            android:descendantFocusability="blocksDescendants" >
+
+         <com.etsy.android.grid.util.DynamicHeightImageView
+                android:id="@+id/img_community_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner_default" />
+
+            <TextView
+                android:id="@+id/tv_community_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_community_image"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_community_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_community_title"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="5dp" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_gotowebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:background="@drawable/go_to_selector"
+            android:minHeight="48dp" >
+
+            <ImageView
+                style="@style/card_shadow"
+                android:layout_alignParentTop="true"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_go_to_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/go_to_website"
+                android:textSize="16sp" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/card_shadow"
+        android:clickable="false" />
+
+</LinearLayout>

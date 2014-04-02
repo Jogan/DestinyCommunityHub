@@ -1,0 +1,156 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.Holo.CustomPtrHeader" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+    </style>
+
+    <style name="Widget.Custom.PtrHeader" parent="android:Widget">
+        <item name="ptrHeaderBackground">@android:color/black</item>
+
+        <!-- This is commented out as you should not set this unless you know what you're doing -->
+        <!-- <item name="ptrHeaderHeight"></item> -->
+
+        <item name="ptrHeaderTitleTextAppearance">@style/TextAppearance.Custom.PtrHeader.Title</item>
+        <item name="ptrProgressBarStyle">inside</item>
+        <item name="ptrProgressBarColor">@android:color/white</item>
+        <item name="ptrPullText">Pull to Refresh...</item>
+        <item name="ptrRefreshingText">Loading...</item>
+    </style>
+
+    <style name="TextAppearance.Custom.PtrHeader.Title" parent="android:TextAppearance.Large.Inverse">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="card_shadow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_shadow</item>
+        <item name="android:src">@drawable/card_shadow</item>
+        <item name="android:layout_below">@+id/inner_frame</item>
+    </style>
+
+    <style name="card_outer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/card_outer_padding_top</item>
+        <item name="android:paddingBottom">@dimen/card_outer_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/card_outer_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/card_outer_padding_horizontal</item>
+    </style>
+
+    <style name="card_inner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:background">@drawable/card_selector</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="card_inner_wrap_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/card_selector</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="card_title_frame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <!-- item name="android:layout_marginLeft">@dimen/card_title_margin_left</item -->
+        <!-- <item name="android:layout_toRightOf">@android:id/icon</item> -->
+
+
+        <!--
+        item name="android:paddingLeft">@dimen/card_inner_padding_left</item>
+        <item name="android:paddingRight">@dimen/card_inner_padding_right</item>
+        <item name="android:paddingTop">@dimen/card_inner_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/card_inner_padding_vertical</item
+
+
+        -->
+
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="card_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/card_title</item>
+        <item name="android:textStyle">bold</item>
+        <!-- item name="android:layout_alignParentLeft">true</item -->
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="TitleTextViewShadow">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TitleTextViewShadowThick">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+
+    <style name="Transparent">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--  Transparent dialog -->
+    <style name="TransparentProgressDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

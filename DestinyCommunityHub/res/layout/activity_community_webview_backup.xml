@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/topLevelLayout">
+
+    <view
+        class="com.opencabinetlabs.destinycommunityhub.ui.view.ShadowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shadowLayout"
+        android:visibility="visible" >
+
+        <WebView android:id="@+id/community_webpage"
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/top_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            style="@style/TitleTextViewShadowThick"
+            android:background="@color/black_transparent_light"
+            android:text="@string/now_entering"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_alignLeft="@+id/community_imageview"
+            android:layout_alignRight="@+id/community_imageview"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/community_imageview" />
+
+        <ImageView
+            android:id="@+id/community_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/bottom_textview"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            style="@style/TitleTextViewShadowThick"
+            android:text="@string/please_wait"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/community_imageview"
+            android:layout_alignRight="@+id/community_imageview"
+            android:gravity="center"
+            android:background="@color/black_transparent_light"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/community_imageview" />
+
+    </view>
+</FrameLayout>

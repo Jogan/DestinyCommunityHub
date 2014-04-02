@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/channelImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/channelImage"
+        android:background="@drawable/text_bg_gradient" >
+
+        <TextView
+            android:id="@+id/channelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="5dp"
+            android:paddingBottom="2dp"
+            android:text="Placeholder"
+            android:paddingLeft="5dp"
+            android:textColor="#fff"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
