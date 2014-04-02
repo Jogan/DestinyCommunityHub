@@ -1,6 +1,0 @@
-<factorypath>
-    <factorypathentry kind="WKSPJAR" id="/DestinyCommunityHub/libs/dagger-1.2.0.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/DestinyCommunityHub/libs/javawriter-2.3.1.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/DestinyCommunityHub/libs/javax.inject.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/DestinyCommunityHub/libs/dagger-compiler-1.2.0.jar" enabled="true" runInBatchMode="false"/>
-</factorypath>
