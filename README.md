@@ -7,12 +7,12 @@ Source code for my app Destiny Community Hub
 
 Note: This is the meat of the code. I removed API keys and omitted code that had to do with the PRO version of the app. It will not run if you manage to compile it.
 
-The app is available on the Play Store here https://play.google.com/store/apps/details?id=com.opencabinetlabs.destinycommunityhub
+The app is available on the Play Store here [Destiny Community Hub][1]
 
 Credits
 -------
-- Daniel Grech for his bootstrap code that I used as a solid foundation!
-- The authors of the fantasic 3rd party libs used in the application
+- Daniel Grech for his bootstrap code that I used as a solid foundation! [AndStrap][2]
+- The authors of the fantasic 3rd party libs used in the application [Found Here][3]
 
 License
 -------
@@ -30,3 +30,8 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+    
+
+[1]https://play.google.com/store/apps/details?id=com.opencabinetlabs.destinycommunityhub
+[2]https://github.com/DanielGrech/andstrap
+[3]https://github.com/Jogan/DestinyCommunityHub/blob/master/DestinyCommunityHub/build.gradle
