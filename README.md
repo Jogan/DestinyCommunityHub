@@ -9,6 +9,13 @@ Note: This is the meat of the code. I removed API keys and omitted code that had
 
 The app is available on the Play Store here ([Destiny Community Hub][1])
 
+To Do
+-----
+- Some of the code I feel is ugly...I would like to fix that.
+- Various bug fixes
+- Improve the internal browser (some crashing occuring)
+- New features including a clan browser and fan art gallery incoming soon!
+
 Credits
 -------
 - Daniel Grech for his bootstrap code that I used as a solid foundation! ([AndStrap][2])
